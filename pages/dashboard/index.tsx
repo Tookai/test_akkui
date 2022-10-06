@@ -35,6 +35,7 @@ const Dashboard: NextPage = () => {
       <UserDrawer />
       <DateMonthYear date={dayjs("04/21/1996")} />
       <DateDisplay date={dayjs("04/21/1996")} />
+
       <Text>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. A saepe cumque
         ad consequatur eum officia, adipisci quaerat quidem, odio architecto

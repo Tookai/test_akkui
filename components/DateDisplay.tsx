@@ -10,9 +10,7 @@ interface IProps {
 const DateDisplay: FunctionComponent<IProps> = ({ date }) => {
   return (
     <Box textAlign={"center"} width={"fit-content"}>
-      <Text fontSize={"1.2rem"} fontWeight={700}>
-        {capitalizeFirstLetter(dayjs(date).format("MMM"))}
-      </Text>
+      <Text>{capitalizeFirstLetter(dayjs(date).format("MMM"))}</Text>
       <Text>{dayjs(date).format("DD")}</Text>
     </Box>
   );
